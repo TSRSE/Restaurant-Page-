@@ -1,13 +1,13 @@
 function createButton(size, content){
     let newButton = document.createElement('button')
     switch (size) {
-        case big:
+        case 'big':
             newButton.classList.add('big')
             break;
-        case medium:
+        case 'medium':
             newButton.classList.add('medium')
             break;
-        case small:
+        case 'small':
             newButton.classList.add('small')
             break;
     
